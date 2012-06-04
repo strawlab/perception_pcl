@@ -54,7 +54,7 @@ cleaned: Makefile
 	touch cleaned
 
 clean:
-	-rm -rf $(SOURCE_DIR)/build rospack_nosubdirs patched installed include bin lib64 msg_gen src *~
+	-rm -rf $(SOURCE_DIR)/build rospack_nosubdirs patched installed include bin lib64 msg_gen src *~ vtk_include_dirs.txt vtk_library_dirs.txt
 
 wiped: Makefile
 	make wipe
