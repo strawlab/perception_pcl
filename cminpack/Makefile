@@ -2,7 +2,7 @@ all: installed
 
 VER = 1.1.3
 TARBALL       = build/cminpack-$(VER).tar.gz
-TARBALL_URL   = http://pr.willowgarage.com/downloads/cminpack-$(VER).tar.gz
+TARBALL_URL   = http://static.strawlab.org/downloads/cminpack-$(VER).tar.gz
 UNPACK_CMD    = tar xfz
 SOURCE_DIR    = build/cminpack-$(VER)
 #TARBALL_PATCH = cminpack.pc.patch
